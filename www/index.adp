@@ -3,7 +3,7 @@
 <property name="main_navbar_label">admin</property>
 
 
-<table cellpadding=2 cellspacing=0 border=0 width=100%>
+<table cellpadding=2 cellspacing=0 border=0 width="100%">
 <tr>
   <td valign=top width="50%">
 
