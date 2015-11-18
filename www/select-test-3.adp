@@ -7,7 +7,7 @@
 <if "ok" eq @status@>
 
 	<form action="select-test-4" method=POST>
-	<%= [export_form_vars url token timestamp user_id object_type] %>
+	<%= [export_vars -form {url token timestamp user_id object_type}] %>
 	<table cellpadding=2 cellspacing=0 border=0>
 	<tr class=roweven>
 	  <td valign=top>URL:</td>

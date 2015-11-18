@@ -5,7 +5,7 @@
 <h1>@page_title@</h1>
 
 <form action="call-test-2" method=POST>
-<%= [export_form_vars url token timestamp user_id] %>
+<%= [export_vars -form {url token timestamp user_id}] %>
 <table cellpadding=2 cellspacing=0 border=0>
 <tr class=roweven>
   <td valign=top>URL:</td>
